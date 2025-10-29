@@ -11,9 +11,10 @@ while True:
        prices.append(price)
 print("---YOUR CART---")
 for food in foods:
-   print(food.capitalize())
+   print(f"{food.capitalize():^15}")
 
 total = sum(prices)
 print()
+
 
 print(f"Your total is: ${total}")
